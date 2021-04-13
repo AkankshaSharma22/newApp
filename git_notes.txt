@@ -1,0 +1,65 @@
+- GitHub  (cloud)
+- Git  (local)
+- VSCode 
+
+
+https://github.com/AkankshaSharma22/newApp.git
+
+
+
+Git: is version control repository (codebase repository)
+Different stages of Git
+		untrackesfiles (source code)  ->  git init (create or initiate git repository) -> Add files (source code) for tracking   / stage ->  Commnit (save stage files to branch) 
+		
+						->   push the code to GitHub 
+						
+
+
+Step 1:	Initiate the repository 
+			git init
+
+Step 2: show list of files and folder 
+		git status 
+		
+Step 3: add files to stage for tracking 
+		git add .			
+		git add index.html home.js ....
+		
+					. add all files 
+					filename  - add given file name 	
+					
+Step 4: commit (add stages files to branch)
+		
+							
+         *branch: git will give default branch which is "master"								
+			Branch is logical group name 
+			
+			
+Step 5: push the code to github 
+				
+				
+Log:
+ history
+    1  git init							    - one time for every project 
+    2  git status							- you can run whenever you want to see status of files or folder 
+    3  git add .							- you can run whenever you have added new code or any chane made in existing code -> then you to save (commit)
+    4  git status					
+    5  git status
+    6  git commit -m "first copy of code"	- you can run whenever you want or need to save the changes (addtional files of code change from stage to master branch)	
+    7  git status
+    8  git log								- you can run whenever you want to see commit history 
+
+    9  git remote add server https://github.com/AkankshaSharma22/newApp.git
+   10  git push -u server master
+
+   
+			
+						
+		
+			
+			
+
+							
+						
+						
+
